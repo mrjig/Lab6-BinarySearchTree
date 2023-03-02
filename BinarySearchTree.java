@@ -11,6 +11,8 @@ import java.io.*;
 
 public class BinarySearchTree {
     public static void main(String[] args) {
+        // sample employee
+        Employee one = new Employee(1, "Jake", "Holmes", "Junior Software Developer");
 
     } // end of main
 } // end of lab6 class
