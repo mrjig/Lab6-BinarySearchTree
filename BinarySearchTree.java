@@ -23,8 +23,8 @@ class Employee {
     private String firstName;
     private String lastName;
     private String occupation;
-    Employee left;
-    Employee right;
+    private Employee left;
+    private Employee right;
 
     public Employee(int employeeID, String firstName, String lastName, String occupation) {
         this.employeeID = employeeID;
