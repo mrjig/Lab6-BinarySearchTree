@@ -6,13 +6,17 @@
 // Purpose: Use recursion to add/remove employees from a fictional database
 // Extra Credit:
 
+
+
 import java.util.*;
 import java.io.*;
 
 public class BinarySearchTree {
     public static void main(String[] args) {
+
         // sample employee
         Employee one = new Employee(1, "Jake", "Holmes", "Junior Software Developer");
+        System.out.println(one.EmployeeInfo());
 
     } // end of main
 } // end of lab6 class
@@ -33,6 +37,10 @@ class Employee {
         this.occupation = occupation;
         this.left = null;
         this.right = null;
+    }
+
+    public String EmployeeInfo() {
+        return "Employee Name: " + this.firstName + " " + this.lastName + "\nEmployee ID: " + this.employeeID + "\nPosition: " + this.occupation;
     }
 
 } // end node class employee
